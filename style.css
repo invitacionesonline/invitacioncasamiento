@@ -1,0 +1,235 @@
+:root{
+    --bg-color: hsl(61, 21%, 85%);
+    --overlay: rgba(255, 255, 255, 0.5);
+    --dorado: #FAFAD2;
+    --letra: rgb(246, 253, 195);
+    --gris-oscuro: rgb(216, 216, 216);
+    --gris: rgb(232, 229, 229);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/fondos/marble-tiles-02-beige-amasya-beige-01-h.jpg");
+    background-color: var(--bg-color);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    color: black;
+}
+
+.contenedor {
+    opacity: 1;
+    background-color: var(--overlay);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.seccion {
+    width: 80%;
+}
+
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 64px;
+    font-family: 'Tangerine', cursive;
+}
+
+p{
+    font-weight: 200;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 80px 80px 80px 80px;
+    margin: 10px;
+    border: solid 2px var(--gris);
+    background-color: var(--overlay);
+}
+
+button:hover {
+    cursor: pointer;
+    border: solid 2px var(--overlay);
+}
+
+img {
+    height: 50%;
+    width: 100%;
+}
+
+.presentacion {
+    position: relative;
+    width: 100%;
+  }
+.presentacion h1 {
+    font-size: 78px;
+} 
+.presentacion p {
+    font-size: 64px;
+} 
+  
+.presentacion img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    flex-wrap: wrap;
+    opacity: 1;
+    background-color: var(--overlay);
+    font-family: 'Tangerine', cursive;
+    width: 100%;
+}
+
+
+.count {
+    margin: 3em;
+    text-align: center;
+}
+.count p{
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.count span {
+    font-size: 32px;
+}
+
+.detalles-fiesta{
+    margin: 1em 0;
+}
+
+.hashtag {
+    position: relative;
+    width: 100%;
+}
+
+.gris {
+    background-color: var(--gris);
+    padding: 2em;
+    box-shadow: 0px 0px 2px 2px var(--gris-oscuro);
+    width: 100%;
+}
+
+.gris p{
+    margin: 1em 0;
+}
+
+.regalos p{
+    margin: 1em 0;
+}
+
+.datos{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transform: translateY(50%);
+    padding: 2em;
+    background-color: var(--overlay);
+}
+
+.hashtag img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.ig{
+  font-size: 64px;
+}
+
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: var(--overlay);
+  }
+.overlay h1 {
+    font-size: 78px;
+} 
+.overlay p {
+    font-size: 2em;
+} 
+
+.seccion {
+    margin: 3em 0;
+}
+
+.img-historia img{
+	width: 70%;
+	height: auto;
+	margin: 3em 0;
+    
+}
+
+footer {
+    margin: 50px 0;
+}
+
+footer a{
+      text-decoration: underline;
+}
+  
+footer h2 {
+    margin-top: 1em;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: var(--dorado);
+    transition: 0.8s ease;
+}
+
+footer p {
+	margin-top: 3em;
+	font-size: 28px;
+}
+
+
+
+@media only screen and (max-width: 1260px) {
+    .img-historia img{
+        width: 100%;
+        height: auto;
+        margin: 1em 0;
+        
+    }
+  }
+  
