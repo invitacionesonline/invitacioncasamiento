@@ -155,6 +155,7 @@ img {
     height: 100%;
     transform: translateY(50%);
     padding: 2em;
+    margin-top: 50%;
     background-color: var(--overlay);
 }
 
@@ -213,7 +214,7 @@ footer h2 {
 
 footer a:hover{
     text-decoration: none;
-    color: var(--dorado);
+    color: var(--gris-oscuro);
     transition: 0.8s ease;
 }
 
